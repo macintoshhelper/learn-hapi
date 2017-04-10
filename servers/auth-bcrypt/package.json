@@ -1,0 +1,17 @@
+{
+  "name": "auth-bcrypt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "hapi": "^16.1.1",
+    "hapi-auth-basic": "^4.2.0"
+  }
+}
